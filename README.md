@@ -19,3 +19,11 @@
     The system should return 404 instead of empty arrays or generic errors because 404 provides clear information to users and applications that the requested item does not exist in the system.
     
 4. Testing:
+
+**Why did I choose to Embed the maintenance Log?**
+
+Answer: Maintenance logs are inherently room specific every entry relates exclusively to one particular room/unit in the property. They are almost always viewed, updated or referenced in direct context with that rooms overall details.
+
+**Why did I choose to Reference the room and guest in Booking?**
+
+Answer:Rooms and guests are independent entities that exist independently of bookings and can link to multiple bookings over time, so referencing them via ID avoids duplicating their core details across records. This ensures perfect data consistency, eliminates update errors and keeps bookings lightweight and focused on booking-specific info only.
