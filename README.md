@@ -40,7 +40,7 @@ Answer:Rooms and guests are independent entities that exist independently of boo
 **2. Login**
 ![Alt text](images/login.png)
 
-**3. Access Protected Route: Try to POST a new Dish.**
+**3. Try to POST a new Room.**
 ![Alt text](images/newroom.png)
 
 **1. Authentication vs Authorization:**
